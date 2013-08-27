@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+
+#ethowBNB {
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: medium;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	text-transform: none;
+}
+#ethowBNBA {
+	background: #333333;
+	color: #999;
+	border-top: 2px solid #ffffff;
+	box-shadow: 0px -2px 5px 3px #999999;
+	height: 42px;
+}
+#ethowBNBA > div {
+	padding: 10px;
+}
+#ethowBNBA a {
+	color: #fff;
+	text-decoration: none;
+}
+#ethowBNBH {background-image:url(http://4.bp.blogspot.com/-vtzv7UVG0ro/UN2vJXK7WII/AAAAAAAAIX8/KqX3rdH4g8Q/s400/light.png);width:20px;height:22px;background-position:-42px -0px;background-repeat:no-repeat;float:right;cursor:pointer;}
+#ethowBNBH:hover {width:20px;height:22px;background-position:-63px -0px;background-repeat:no-repeat;}
+#ethowBNBS {
+	background: #333;
+	padding: 10px;
+	position: absolute;
+	bottom: 0px;
+	right: 10px;
+	border: 2px solid #ffffff;
+	border-bottom: none;
+	box-shadow: 0px -2px 5px 3px #999999;
+	border-radius: 5px 5px 0px 0px;
+	display: none;
+}
+#ethowBNBS span {background-image:url(http://4.bp.blogspot.com/-vtzv7UVG0ro/UN2vJXK7WII/AAAAAAAAIX8/KqX3rdH4g8Q/s400/light.png);width:20px;height:22px;background-position:-22px -0px;background-repeat:no-repeat;float:right;cursor:pointer;}
+#ethowBNBS span:hover {background-image:url(http://4.bp.blogspot.com/-vtzv7UVG0ro/UN2vJXK7WII/AAAAAAAAIX8/KqX3rdH4g8Q/s400/light.png);width:20px;height:22px;background-position:-1px -0px;background-repeat:no-repeat;}
