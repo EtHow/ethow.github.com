@@ -1,0 +1,16 @@
+@charset "utf-8";
+/*************************
+© EtHow.com
+  All rights reserved
+*************************/
+
+a {
+	color: #900;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:active {
+	color: #F90;
+}
