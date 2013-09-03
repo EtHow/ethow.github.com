@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>FeedBurner Follow widget similar to wordpress</title>
+<link type="text/css" rel="stylesheet" href="feedburner-follow-widget-like-wp-style.css" />
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+<script src="feedburner-follow-widget-like-wp-js.js"></script>
+</head>
+
+<body>
+<div style="font-family:Arial, Helvetica, sans-serif; text-align: center; margin-top:20%;">
+<h3 style="font-size:40px;">Feedburner Email Follow/Subscribe widget</h3>
+<p>Tutorial comming soon...</p>
+<p>Check out widget by refreshing page or by clicking on follow button</p>
+<p>Want much more stuff!<br>Type your Email in that widget and click on subscribe</p>
+</div>
+
+<div id="ethowWF">
+<div id="ethowWFOB">+ <span>Follow</span></div>
+<div style="clear: both;"></div>
+<div id="ethowWFA">
+<form style="padding:3px;text-align:center;" action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=Ethow', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
+<div style="font-size:18px; font-weight:bold; color: #CCC;">Follow us</div>
+<div>Get updates to your email</div>
+<div><input type="text" style="width:140px" name="email" placeholder="You email..." id="ethowWFEmT"/></div>
+<input type="hidden" value="Ethow" name="uri"/>
+<input type="hidden" name="loc" value="en_US"/>
+<input type="submit" value="Subscribe" id="ethowWFSubB" />
+</form>
+</div>
+</div>
+
+</body>
+</html>
