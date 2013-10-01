@@ -3,7 +3,10 @@
 © EtHow.com
   All rights reserved
 *************************/
-
+body {
+	background: #fff;
+	color: #000;
+}
 a {
 	color: #900;
 	text-decoration: none;
