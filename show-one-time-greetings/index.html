@@ -21,10 +21,14 @@
         </div>
 
         <script>
+            // for this page only
+            var current_month = new Date();
+            current_month = current_month.getMonth() + 1;
+            
             var greeting_settings = {
-                start_date: 21,
+                start_date: 0,
                 end_date: 31,
-                month: 12,
+                month: current_month,
                 year: 2014,
                 image_link: "http://i.imgur.com/gOcH2nBm.jpg",
                 full_image_link: "http://i.imgur.com/gOcH2nB.jpg",
