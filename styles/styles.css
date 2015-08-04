@@ -4,17 +4,33 @@
   All rights reserved
 *************************/
 body {
-	background: #fff;
-	color: #000;
-        font-family: Arial,Helvetica,sans-serif;
+    background: #fff;
+    color: #000;
+    font-family: Arial,Helvetica,sans-serif;
 }
 a {
-	color: #900;
-	text-decoration: none;
+    color: #900;
+    text-decoration: none;
 }
 a:hover {
-	text-decoration: underline;
+    text-decoration: underline;
 }
 a:active {
-	color: #F90;
+    color: #F90;
+}
+
+.content_container {
+    max-width: 600px;
+    margin: auto;
+}
+
+.almost-vertical-middle {
+    margin-top: 5em;
+}
+
+.horizontal-center {
+    text-align: center;
+}
+.horizontal-left {
+    text-align: left;
 }
